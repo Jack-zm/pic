@@ -1,0 +1,31 @@
+.btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    background-color: #000000;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-upload {
+    background-color: #007BFF;
+}
+
+.btn-upload:hover {
+    background-color: #0056b3;
+}
+
+.btn-process {
+    background-color: #28A745;
+}
+
+.btn-process:hover {
+    background-color: #1f7e34;
+}
